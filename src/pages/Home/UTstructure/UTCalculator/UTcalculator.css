@@ -1,0 +1,20 @@
+.UT-calculator-container{
+    text-align: center;
+    padding-top: 15px;;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.UT-calculator-container h1{
+    color: #9fef00;
+}
+
+.UT-calculator-container p{
+    color: white;
+    margin: 5px;
+}
+
+.UT-calculator-container span{
+    color:#9fef00;
+}

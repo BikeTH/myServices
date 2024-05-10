@@ -1,0 +1,18 @@
+.home-logo-slider{
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.logo-slider-styling{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+}

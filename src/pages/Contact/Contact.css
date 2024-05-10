@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+
+.contact-title{
+    color:#9fef00;
+    text-shadow: 0px 0px 6px rgba(159, 239, 0, 0.8);
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.contact{
+    color: white;
+}
+
+.feedback{
+    margin-bottom: 0;
+}
+
+.form-feedback{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    width: 35%;
+}
+
+input, textarea, select{
+    background-color: #111927;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 8px;
+    color: white;
+    font-family: Arial, sans-serif;   
+}
+
+input::placeholder{
+    color: grey;
+}
+
+select:hover {
+    border-color: #999; /* Change border color on hover */
+}
+
+.submit{
+    background-color: #9fef00;
+    box-shadow: 0px 0px 6px rgba(159, 239, 0, 0.8);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 40%;
+    margin: 10px auto 0;
+}
+
+.submit:hover{
+    background-color: #8acf00;
+    cursor: pointer;
+}
+
+.addMe a{
+    display: inline-block;
+    margin: 0.5em;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.addMe{
+    padding: 0px;
+}
+
+.addMe a:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+.pointColor{
+    color: #9fef00;
+}
+
+.container-split{
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    .form-feedback{
+        display: flex;
+        flex-direction: column;
+        margin-right: auto;
+        margin-left: auto;
+        width: 70%;
+    }
+
+    .container-split{
+        display: flex;
+    }
+}

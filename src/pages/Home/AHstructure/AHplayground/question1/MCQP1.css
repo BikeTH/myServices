@@ -1,0 +1,13 @@
+.MCQ1-arrangement{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    max-width: 200px;
+    gap: 5px;
+}
+
+.MCQ1-btn:hover{
+    background-color: grey;
+}

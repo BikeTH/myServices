@@ -1,0 +1,55 @@
+.UT-feature-arrangement{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    min-height: 200px;
+    gap: 50px;
+    padding: 0 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.UT-symbol{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    top:0;
+    color: white;
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 400px;
+    border-radius: 20px;
+    border-width: 5px 3px 3px 5px;
+    border: 2px solid #9fef00;
+    border-bottom-color: #e5e5e5;
+    border-right-color: #e5e5e5;
+}
+
+.UT-feature h1{
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.UT-feature p{
+    text-align: left;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 1440px) {
+    .UT-feature-arrangement {
+        grid-template-columns: repeat(2, 2fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .UT-feature-arrangement {
+        display: block;
+    }
+    .UT-feature-arrangement > * {
+        margin-bottom: 10px;
+    }
+    .UT-feature-arrangement > *:last-child {
+        margin-bottom: 0;
+    }
+}

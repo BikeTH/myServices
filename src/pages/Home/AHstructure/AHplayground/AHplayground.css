@@ -1,0 +1,139 @@
+.AH-playground-container{
+    text-align: center;
+    padding-top: 15px;;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #EAEAEA;
+}
+
+.AH-playground-container h1{
+    color: black;
+}
+
+.AH-playground-container p{
+    color: black;
+    margin: 5px;
+}
+
+.AH-playground-container span{
+    color: blue;
+}
+
+.AH-playground{
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.AH-playground h1{
+    font-size: 25px;
+}
+
+.problem-java{
+    min-height: 330px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.problem-css{
+    min-height: 330px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.Q1-play:hover{
+    background-color: #9fef00;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.problem-struct{
+    border: 2px solid grey;
+    text-align: left;
+    background-color: black;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.problem-struct p{
+    color: white;;
+}
+
+.prob-arrange-java{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    justify-content: center;
+    gap: 20px;
+}
+
+.prod-arrange-css{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    justify-content: center;
+    gap:20px;
+}
+
+.bonus-AH{
+    text-align: center;
+}
+
+.bonus-AH input::placeholder{
+    color: white;
+}
+
+.Flag-btn button{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  .Flag-btn button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    color: #fff;
+  }
+  
+  .Flag-btn button:active {
+    transform: translateY(1px);
+  }
+
+@media screen and (max-width:960px){
+    .AH-playground{
+        padding: 0;
+    }
+
+    .problem-1{
+        min-height: 330px;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width:700px){
+    .AH-playground{
+        padding: 0;
+    }
+
+    .problem-1{
+        min-height: 330px;
+        padding: 0px;
+    }
+
+    .prob-arrange-java{
+        display: block;
+        justify-content: center;
+    }
+
+    .prod-arrange-css{
+        display: block;
+        justify-content: center;
+    }
+}

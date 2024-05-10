@@ -1,0 +1,20 @@
+.UT-structure{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.UT-structure h1{
+    color: whitesmoke;
+    font-size: 44px;
+}
+
+.UT-structure p{
+    color: #9fef00;
+    font-size: 20px;
+}

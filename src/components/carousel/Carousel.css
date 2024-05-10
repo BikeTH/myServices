@@ -1,0 +1,137 @@
+.carousel{
+    padding-left: 10%;
+    padding-right: 10%;
+    overflow: hidden;
+}
+
+.carousel-logo{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    margin: 20px;
+    font-size: 30px;
+}
+
+.carousel-description{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+    margin: 20px;
+    font-size: 20px;
+    font-family: 'Brush Script MT', cursive;
+    display: inline-block;
+}
+
+.info-swipper-experience{
+    height: 27rem;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #e5e5e5;
+    border-width: 5px 3px 3px 5px;
+    border-bottom-color: #9fef00;
+    border-right-color: #9fef00;
+    border-radius: 10px;
+}
+
+.interest-swipper{
+    position: relative;
+    height: 500px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    border-width: 0px 3px 3px 0px;
+    border-style: solid;
+    border-bottom-color: #9fef00;
+    border-right-color: #9fef00;
+    animation: breathBorder 3s infinite alternate;
+}
+
+@keyframes breathBorder {
+    0% {
+        border-bottom-color: #9fef00;
+        border-right-color: #9fef00;
+    }
+    100% {
+        border-bottom-color: #ff6347; /* End color */
+        border-right-color: #ff6347; /* End color */
+    }
+}
+
+.experience-title{
+    padding-top: 10px;
+    text-align: center;
+    color: #a7ff7a;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.experience-jd{
+    text-align: justify;
+    font-size: auto;
+    padding: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #cccccc;
+}
+
+.experience-tool{
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: fixed;
+}
+
+.carousel-interest{
+    padding: 0;
+    border-radius: 0;
+}
+
+.interest-jd{
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    position: absolute;
+}
+
+@media screen and (max-width: 800px) {
+    .carousel{
+        position: relative;
+        width: 100%;
+        border-radius: 0%;
+    }
+    
+    .info-swipper-experience{
+        height: 35rem;
+        background-size: cover;
+        background-position: center;
+        border: 2px solid #e5e5e5;
+        border-width: 5px 3px 3px 5px;
+        border-bottom-color: #9fef00;
+        border-right-color: #9fef00;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .carousel{
+        position: relative;
+        width: 100%;
+        padding: 0;
+        border-radius: 0%;
+    }
+    
+    .info-swipper-experience{
+        height: 35rem;
+        background-size: cover;
+        background-position: center;
+        border: 2px solid #e5e5e5;
+        border-width: 5px 3px 3px 5px;
+        border-bottom-color: #9fef00;
+        border-right-color: #9fef00;
+        border-radius: 10px;
+    }
+}

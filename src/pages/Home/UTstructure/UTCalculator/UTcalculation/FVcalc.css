@@ -1,0 +1,250 @@
+.calc-size{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid;
+    background-color: #282c34;
+}
+
+.calc-size h1{
+    font-size: 30px;
+}
+
+div .arrangement{
+    display: grid;
+    grid-template-columns: min(250px, 400px) 1fr;
+    color: whitesmoke;
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+}
+
+.calc-size label{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.calc-size input{
+    width: 50%;
+    background-color: black;
+    color: white;
+    align-self: center;
+    border: 2px solid;
+    border-top: none;
+    border-left: none;
+    border-bottom-color: #9fef00;
+    border-right-color: #9fef00;
+}
+
+.calc-button{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+
+.calc-button button{
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    animation: breathBorder 3s infinite alternate;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+    cursor: pointer;
+    min-width: 90px;
+    border-top: none;
+    border-left: none;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+}
+
+.calc-button button:hover{
+    background-color: #9fef00;
+    color: black;
+}
+
+.analyze-fund{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 5px;
+    text-align: justify;
+    
+}
+
+.compare-title h1{
+    text-align: center;
+}
+
+.compare-title p{
+    text-align: justify;
+}
+
+.comp-clear-btn{
+    display: flex;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    gap: 20px;
+}
+
+.comp-clear-btn button{
+    color: white;
+    background-color: black;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    animation: breathBorder 3s infinite alternate;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+    cursor: pointer;
+    border-top: none;
+    border-left: none;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+}
+
+.comp-clear-btn button:hover{
+    background-color: #9fef00;
+    color: black;
+}
+
+.comp-remove{
+    display: flex;
+    gap:5px;
+    padding-bottom: 5px;
+}
+
+.cancel-icon{
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    color:rgba(255, 0, 0, 0.5);
+}
+
+.cancel-icon:hover{
+    color:red;
+}
+
+.comparison-arrange{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:25px;
+}
+
+.comparison-item {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid;
+    border-top: none;
+    border-left: none;
+    border-bottom-color: #9fef00;
+    border-right-color: #9fef00;
+}
+
+.entry-data {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    text-align: justify;
+}
+
+.entry-data p{
+    margin: 0;
+}
+
+.summary-comparison{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 15px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 800px) {
+    .calc-size{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border: 2px solid;
+    }
+    div .arrangement{
+        display: grid;
+        grid-template-columns: min(200px, 400px) 1fr;
+        color: whitesmoke;
+        gap: 15px;
+        align-items: center;
+        justify-items: center;
+    }
+    .calc-size label{
+        margin: 0;
+        padding: 0;
+        text-align: left;
+    }
+    
+    .calc-size input{
+        width: 100%;
+        background-color: black;
+        color: white;
+        align-self: center;
+        border: 2px solid;
+        border-top: none;
+        border-left: none;
+        border-bottom-color: #9fef00;
+        border-right-color: #9fef00;
+    }
+    .analyze-fund{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        text-align: justify;
+    }
+
+    .summary-comparison{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        text-align: justify;
+    }
+
+    .summary-comparison h1{
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .comparison-arrange{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        display: block;
+    }
+
+    .comparison-arrange > *{
+        margin-bottom: 10px;
+    }
+
+    .comparison-arrange > *:last-child{
+        margin-bottom: 0;
+    }
+}

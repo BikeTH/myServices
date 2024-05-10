@@ -1,0 +1,18 @@
+body{
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: #282c34;
+    color: grey;
+}
+
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center !important;
+    max-width: 750px;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}

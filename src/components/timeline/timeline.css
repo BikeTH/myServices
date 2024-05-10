@@ -1,0 +1,17 @@
+.vertical-timeline-element-date {
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3), 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.vertical-timeline-element-title{
+    font-size: 20px;
+    color: #d3d3d3;
+    text-align: justify;
+}
+
+.vertical-timeline-element-description{
+    font-size: 16px;
+    color: #c0c0c0;
+    text-align: justify;
+}

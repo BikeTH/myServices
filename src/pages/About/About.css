@@ -1,0 +1,83 @@
+.about-title {
+    top: 0;
+    text-align: left;
+    color: #9fef00;
+    font-size: 15px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.introduction{
+    color: white;
+    margin-top: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.about-experience{
+    text-align: center;
+    color: #9fef00;
+}
+
+.about-skilled{
+    text-align: center;
+    color:#9fef00;
+}
+
+.soft-skill{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.about-goal{
+    text-align: center;
+    color:#9fef00;
+}
+
+.about-interest{
+    text-align:center;
+    color:#9fef00;
+}
+
+.side-by-interest{
+    display: flex;
+}
+.carousel-container{
+    width:50%;
+    flex-shrink: 0;
+}
+
+@media screen and (max-width: 960px) {
+    .side-by-interest{
+        display: block;
+    }
+    .carousel-container{
+        width:100%;
+    }
+    .interest-swipper{
+        background-size: cover;
+        background-position: center;
+    }
+
+    .about-title {
+        top: 0;
+        text-align: left;
+        color: #9fef00;
+        font-size: 15px;
+        padding: 0;
+        padding-left: 5%;
+    }
+    
+    .introduction{
+        padding: 0;
+        padding-left: 5%;
+    }
+
+    .about-skilled{
+        text-align: center;
+        color:#9fef00;
+        margin: 0;
+        padding: 0;
+        padding-top: 5px;
+    }
+}

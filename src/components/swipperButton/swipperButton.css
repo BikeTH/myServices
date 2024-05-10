@@ -1,0 +1,61 @@
+.next-btns{
+    background-color: black;
+    display: flex;
+    justify-content: right;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.next-Assign{
+    font-size: 16px;
+    background-color: #4d525c;
+    cursor: pointer;
+    color: whitesmoke;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    padding: 5px 10px;
+    margin: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    animation: breathBorder 3s infinite alternate;
+    transition: background-color 0.3s ease;
+}
+
+.next-Assign:hover{
+    background-color: #9fef00;
+    color: black;
+}
+
+.prev-btns{
+    background-color: black;
+    display: flex;
+    justify-content: left;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.prev-Assign{
+    font-size: 16px;
+    background-color: #4d525c;
+    cursor: pointer;
+    color: whitesmoke;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    padding: 5px 10px;
+    margin: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    animation: breathBorder 3s infinite alternate;
+    transition: background-color 0.3s ease;
+}
+
+.prev-Assign:hover{
+    background-color: #9fef00;
+    color: black;
+}
