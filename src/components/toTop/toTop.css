@@ -9,7 +9,7 @@
     cursor: pointer;
     color: #9fef00;
     font-size: 30px;
-    opacity: 0.5;
+    opacity: 0.7;
   }
 
   @media screen and (max-width:768px) {

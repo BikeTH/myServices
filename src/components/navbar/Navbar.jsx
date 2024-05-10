@@ -13,6 +13,10 @@ export default function Navbar(){
         setMenuOpen(!menuOpen);
     };
 
+    const handleLinkClick =()=>{
+        setMenuOpen(false);
+    };
+
     return (
     <nav className="nav">
         <Link to ="/">
@@ -22,9 +26,9 @@ export default function Navbar(){
             {menuOpen ? <AiOutlineMenuFold /> : <AiOutlineMenuUnfold />}
         </div>
         <ul className={menuOpen ? "open" : ""}>
-            <CustomLink to="/">Home</CustomLink>
-            <CustomLink to="/about">About</CustomLink>
-            <CustomLink to="/contact">Contact</CustomLink>
+            <CustomLink to="/" onClick={handleLinkClick}>Home</CustomLink>
+            <CustomLink to="/about" onClick={handleLinkClick}>About</CustomLink>
+            <CustomLink to="/contact" onClick={handleLinkClick}>Contact</CustomLink>
         </ul>
     </nav>
     )

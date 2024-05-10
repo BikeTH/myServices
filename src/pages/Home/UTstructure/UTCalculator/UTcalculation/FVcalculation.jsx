@@ -159,15 +159,15 @@ export default function FVcalculation() {
                     <h1>Quick-Analyze Report</h1>
                     <p>After committing <span>${initial}</span> as the initial investment, with a one-time charge of <span>{sales}%</span> and a monthly contribution
                         of <span>${monthly || 0}</span>, subject to a <span>{monthly === "" || parseFloat(monthly) === 0 ? 0 : salesMC || sales}%</span> monthly contribution fee, the adjusted initial investment would be
-                        <span> ${afterInitial}</span>, with subsequent monthly contribution reduced to <span>${afterMonthly}</span>.</p>
-                    <p>Over a {years}-years investment period, this <span>Fund/Product</span> is projected to grow to an estimated total value of <span>${total}</span>.
+                        deducted to<span> ${afterInitial}</span>, with subsequent monthly contribution reduced to <span>${afterMonthly}</span>.</p>
+                    <p>Over a <span style={{fontWeight:'bold'}}>{years}-years</span> investment period, this <span>Fund/Product</span> is projected to grow to an estimated total value of <span>${total}</span>.
                         Put another way, you can say that you had earned <span>${earn}</span> over the period of {years}-years.</p>
                 </div>
                 )}
             <div className="compare-title">
                 <h1>Comparison Products/Funds</h1>
-                <p>You can <span>Compare</span> each calculation you had made in this section.</p>
-                <p><span style={{color:"red"}}>Maximum of 3</span> different <span>Products/Funds</span> can be stored and compared here!</p>
+                <p>You can <span>Compare</span> each calculation you have <span>input</span> in this section.</p>
+                <p><span style={{color:"red"}}>Maximum of 3</span> different <span>Products/Funds</span> can be saved and compared here!</p>
                 <div className="comp-clear-btn">
                     <p>You can <span style={{color:"red"}}>Clear</span> everything by click the button: </p>
                     <button type="button" onClick={removeAllData}>Remove All</button>
@@ -186,7 +186,7 @@ export default function FVcalculation() {
                             <p>Total Contribution: <span>${(parseFloat(entry.initialInvestment)+(entry.monthlyContribution*(12*entry.lengthOfTime)))}</span></p>
                             <p>Total years: <span>{entry.lengthOfTime} years</span></p>
                             <p>Annual Return Rate: <span>{entry.annualReturnRate}%</span></p>
-                            <p>Estimated Earn: <span>${entry.earn}</span></p>
+                            <p>Estimated Profit: <span>${entry.earn}</span></p>
                         </div>
                     </div>
                 ))}
@@ -198,9 +198,9 @@ export default function FVcalculation() {
                         <h1>Best Performance Products/Funds</h1>
                         <div>
                             <p>Amongs the <span>Funds/Products</span> you had inputed, there's one that stands out with an <span>Impressive Performance</span> of <span>${highestEarning.earn}</span> over 
-                            the past <span>{highestEarning.lengthOfTime}-years</span> boasting a solid <span>{highestEarning.annualReturnRate}%</span>. This translates to an 
+                            the past <span style={{fontWeight:'bold'}}>{highestEarning.lengthOfTime}-years</span> boasting a solid return of <span>{highestEarning.annualReturnRate}%</span>. Translates to a 
                             total value of <span>${highestEarning.total}</span>, making it a compelling choice for investment consideration.  
-                            <span style={{color:"yellow"}}> However</span>, before diving in, it's crucial to delve deeper into the specifics. I'll conduct thorough research on the fund's content, 
+                            <span style={{color:"yellow"}}> However</span>, before diving in, it's crucial to delve deeper into the specifics. I'll conduct research thoroughly on the fund's content, 
                             including its investment allocation across various industries. Understanding the <span style={{color:"#D32F2F"}}>Risk Level</span> is paramount, 
                             alongside aligning it with your personal <span style={{color:"#D32F2F"}}>Risk Tolerance</span>. If you're interested in expert guidance on Unit Trust products, 
                             I offer complimentary consultations. I'll work with you to craft the <span>BEST Investment Plan</span> tailored to your needs and <span>Objectives</span>. 

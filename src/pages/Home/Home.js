@@ -26,7 +26,7 @@ export default function Home() {
         <>
             <div className="container-home">
                 <h1>My Services</h1>
-                <p>I provide few services over here that you might interested!</p>
+                <p>I provide few services over here that you might be <span style={{fontWeight:'bold'}}>interested</span>!</p>
                 <button className="servicesButton" onClick={() => scrollToServices()}>Get started</button>
             </div>
             <div className="home-logo-slider">

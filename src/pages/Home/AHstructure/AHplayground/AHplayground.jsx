@@ -33,7 +33,7 @@ export default function AHplayground(){
         <div className="AH-playground-container">
             <h1>Find the bug! <IoBugSharp /></h1>
             <p>This <span>Workspace</span> allows you to identify the <span style={{color:"red"}}>Bug</span> of the program.</p>
-            <p style={{paddingBottom: '20px'}}>With this playground, I hope you can find what make you <span style={{color:"#B7B17E"}}>Like</span> <span>Programming</span>!</p>
+            <p style={{paddingBottom: '20px'}}>With this playground, I hope you can find your interest to <span style={{color:"#B7B17E"}}>Like</span> <span>Programming</span>!</p>
             <div className="AH-playground">
                 <div className="problem-java">
                     <h1>Problem 1: Java Programming <FaCirclePlay className="Q1-play" onClick={handleRunCompiler} /></h1>
