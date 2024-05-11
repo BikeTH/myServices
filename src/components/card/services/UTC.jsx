@@ -20,7 +20,7 @@ export default function UTC() {
             </div>
             <div className="service-card" onClick={flipCard}>
                 <h1 className="service-title"> </h1>
-                <span style={{ color: "whitesmoke", fontSize: "20px", justifyContent: "center" }}>Create an investment plans that suits your needs!</span>
+                <span style={{ color: "whitesmoke", fontSize: "20px", justifyContent: "center" }}>Create an investment plan that suits your needs!</span>
                 <p>Equity fund</p>
                 <p>Mixed Asset/Balanced</p>
                 <p>Bond/Fixed income</p>
