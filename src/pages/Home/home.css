@@ -10,6 +10,12 @@
     overflow: hidden;
 }
 
+.sis-logo{
+    height: 50px;
+    width: auto;
+    transform: scale(2.5);
+}
+
 .container-home::before {
     content: '';
     position: absolute;

@@ -2,7 +2,7 @@ import React from "react"
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
 import { useState } from "react";
 import './Navbar.css'
-import logo from '../../assets/logo/reactLogo.svg';
+import logo from '../../assets/logo/sisLogo.png';
 import { AiOutlineMenuUnfold, AiOutlineMenuFold } from "react-icons/ai";
 
 

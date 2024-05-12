@@ -52,6 +52,7 @@ body {
     height: 50px;
     width: auto;
     pointer-events: none;
+    transform: scale(1.5);
 }
 
 nav .menu {

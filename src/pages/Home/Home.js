@@ -14,7 +14,7 @@ import { Pagination, Navigation } from 'swiper/modules';
 import 'swiper/swiper-bundle.css';
 import AHstructure from "./AHstructure/AH";
 import AHplayground from "./AHstructure/AHplayground/AHplayground";
-
+import sisLogo from "../../assets/logo/sisLogo.png";
 
 export default function Home() {
     function scrollToServices(){
@@ -25,6 +25,7 @@ export default function Home() {
     return(
         <>
             <div className="container-home">
+                <h1><img src={sisLogo} alt="SIS Logo" className="sis-logo" /></h1>
                 <h1>My Services</h1>
                 <p>I provide few services over here that you might be <span style={{fontWeight:'bold'}}>interested</span>!</p>
                 <button className="servicesButton" onClick={() => scrollToServices()}>Get started</button>
