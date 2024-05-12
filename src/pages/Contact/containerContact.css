@@ -16,3 +16,52 @@ body{
     padding-top: 1rem !important;
     padding-bottom: 1rem !important;
 }
+
+.email-status {
+    position: fixed;
+    top: 70px;
+    right: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    z-index: 999;
+    background-color: #fff; /* White background color */
+    animation: fadeOut 5s forwards;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.email-status.success {
+    background-color: #28a745; /* Green color for success */
+    color: #fff;
+}
+
+.email-status.failed {
+    background-color: #dc3545; /* Red color for failure */
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .email-status {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 14px;
+        z-index: 999;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
