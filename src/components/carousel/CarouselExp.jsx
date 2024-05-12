@@ -3,7 +3,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, EffectCoverflow, Autoplay } from 'swiper/modules';
 import 'swiper/swiper-bundle.css';
 import "./Carousel.css";
-import OE from "../../../src/assets/image/ZOS.png";
 
 const slider = [
     {
@@ -12,7 +11,6 @@ const slider = [
         description: 
         "With more than a year of dedicated experience in IT operations, I've honed my skills in monitoring job batches across mainframe and midrange systems to maintain seamless performance and reliability. My daily tasks involve AS400 daily tape duplication and IPL reboot, quarterly vulnerability reporting, managing tickets in ServiceNOW, performing window security patching, and resolving job-related issues on mainframe and midrange systems by referencing relevant documentation.",
         tool:"Tool: Zabbix, Crowdstrike, BMC Control-M",
-        url: OE,
     },
     {
         id: 2,
