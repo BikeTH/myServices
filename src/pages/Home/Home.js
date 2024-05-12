@@ -17,6 +17,7 @@ import AHplayground from "./AHstructure/AHplayground/AHplayground";
 import sisLogo from "../../assets/logo/sisLogo.png";
 
 export default function Home() {
+
     function scrollToServices(){
         const servicesAll = document.getElementById('servicesAll');
         servicesAll.scrollIntoView({ behavior: 'smooth', block: 'start'});
