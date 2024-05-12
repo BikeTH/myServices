@@ -13,7 +13,7 @@
 .sis-logo{
     height: 50px;
     width: auto;
-    transform: scale(2.5);
+    transform: scale(1.5);
 }
 
 .container-home::before {
