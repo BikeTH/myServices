@@ -19,11 +19,11 @@ const VALID_CHARS = `あいうえお
 */=%"'#&_(),.;:?!\\|{}<>[]^~`;
 const STREAM_MUTATION_ODDS = 0.02;
 
-const MIN_STREAM_SIZE = 15;
-const MAX_STREAM_SIZE = 50;
+const MIN_STREAM_SIZE = 10;
+const MAX_STREAM_SIZE = 30;
 
-const MIN_INTERVAL_DELAY = 50;
-const MAX_INTERVAL_DELAY = 100;
+const MIN_INTERVAL_DELAY = 100;
+const MAX_INTERVAL_DELAY = 200;
 
 const MIN_DELAY_BETWEEN_STREAMS = 0;
 const MAX_DELAY_BETWEEN_STREAMS = 300;
