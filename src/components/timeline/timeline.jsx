@@ -16,7 +16,7 @@ const object = [
     {
         id: 2,
         title: "Web development (Frontend)",
-        description: "My goal is to become proficient in React.js and other frontend technologies like Vue.js or Angular. I also aim to learn a few CSS frameworks to enhance my frontend development skills. Additionally, I may delve into backend development for database management or server-side functionality",
+        description: "My goal is to become proficient in React.js and other frontend technologies like Vue.js or Next.js. I also aim to learn a few CSS frameworks to enhance my frontend development skills. Additionally, I may delve into backend development for database management or server-side functionality",
         date: "Around September",
         icon: <MdOutlineWeb />
     },
