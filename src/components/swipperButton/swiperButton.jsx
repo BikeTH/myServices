@@ -3,8 +3,10 @@ import { useSwiper } from 'swiper/react';
 import "./swipperButton.css"
 
 const scrollToTop = () => {
-  document.body.scrollTop = 500;
-  document.documentElement.scrollTop = 500;
+  window.scrollTo({
+    top:500,
+    behavior: 'smooth'
+  });
 };
 
 export function SwiperNavNext(){

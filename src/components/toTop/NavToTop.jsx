@@ -16,8 +16,10 @@ export default function NavToTop() {
   }, []);
 
   const scrollToTop = () => {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
+    window.scrollTo({
+      top: 20,
+      behavior: 'smooth'
+    });
   };
 
   return (
